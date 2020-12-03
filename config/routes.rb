@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 # get 'posts/new', to: 'posts#new'
  #get 'posts', to: 'posts#index'
   post 'posts', to: 'posts#create'
-  get 'posts', to: 'posts#checked'
+  get 'posts/:id', to: 'posts#checked'
 end
